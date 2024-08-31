@@ -9,7 +9,7 @@ int main ( int argc, char ** argv )
   MPI_Init(&argc, &argv);
 
   constexpr int nmax {1'00000000};
-  constexpr std::size_t nx {300}, ny {90}, nz {80}; 
+  constexpr std::size_t nx {301}, ny {90}, nz {80}; 
   constexpr std::size_t nx_full {nx+2}, ny_full {ny+2}, nz_full {nz+2};
   double time {0.0};
   int i {0};
