@@ -9,8 +9,7 @@ This project implements the finite difference method to solve the heat conductio
 Before running the project, make sure to load the necessary modules:
 
 ```bash
-module load openmpi
-module load gcc
+module load openmpi/4.1.6-gcc-13.1.0-kzjsbji
 ```
 
 ## Installation
